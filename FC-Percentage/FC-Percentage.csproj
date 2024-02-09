@@ -166,7 +166,6 @@
     <EmbeddedResource Include="FCPCounter\Configuration\BSML\CounterSettings.bsml" />
     <EmbeddedResource Include="FCPResults\Configuration\BSML\ResultsSettings.bsml" />
     <None Include="Directory.Build.props" Condition="Exists('Directory.Build.props')" />
-    <None Include="Directory.Build.targets" Condition="Exists('Directory.Build.targets')" />
     <EmbeddedResource Include="FCPResults\HUD\BSML\ResultsPercentageResult.bsml" />
     <EmbeddedResource Include="FCPResults\HUD\BSML\ResultsScoreResult.bsml" />
     <EmbeddedResource Include="FCPResults\HUD\BSML\MissionResultsPercentageResult.bsml" />
@@ -174,7 +173,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="BeatSaberModdingTools.Tasks">
-      <Version>1.2.3</Version>
+      <Version>2.0.0-beta7</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
